@@ -1,0 +1,114 @@
+.partner {
+
+    height: 541px;
+    margin-top: 130px;
+    background: $light-purple;
+    padding-top: 60px;
+
+    &-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 28px;
+    }
+
+    &-left {
+        width: 644px;
+        height: 421px;
+    }
+
+    &-heading {
+        width: 617px;
+        font-size: 50px;
+        font-weight: 600;
+        color: $dark-color;
+        margin-bottom: 30px;
+    }
+
+    &-desc {
+        width: 644px;
+        color: $gray-color;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 30px;
+        margin-bottom: 73px;
+    }
+
+    &-rating {
+        display: flex;
+    }
+
+    &-rating-item {
+        margin-right: 80px;
+        width: 142px;
+        height: 106px;
+    }
+    
+    &-rating-star {
+        width: 142px;
+        height: 26px;
+    }
+
+    &-rating-name {
+        font-size: 18px;
+        font-weight: 700;
+        color: $gray-color;
+        margin-top: 18px;
+        line-height: 22.4px;
+    }
+
+    &-rating-desc {
+        margin-top: 14px;
+        color: $dark-color;
+        font-size: 18px;
+        
+        .rating-score {
+            font-weight: 700;
+        }
+
+        .splash {
+            font-weight: 400;
+        }
+
+        .max-rating {
+            font-weight: 500;
+        }
+    }
+
+    &-right {
+        width: 508px;
+        height: 411px;
+    }
+
+    &-info-item {
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    &-box-image {
+        width: 60px;
+        height: 60px;
+        background-color: $white-color;
+        box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.05);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    &-info-heading {
+        font-size: 28px;
+        font-weight: 700;
+        color: $dark-color;
+        margin: 3px 0 10px 0;
+        line-height: 34px;
+    }
+
+    &-info-desc {
+        width: 428px;
+        color: $gray-color;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+}

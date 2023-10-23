@@ -1,0 +1,250 @@
+.plan {
+    height: 1069px;
+    margin-top: 130px;
+    text-align: center;
+    margin-bottom: 130px;
+
+    &-heading {
+        width: 492px;
+        color: $dark-color;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 73px;
+        margin: 0 auto;
+    }
+
+    &-desc {
+        color: $gray-color;
+        font-size: 18px;
+        font-weight: 700;
+        margin: 40px 0;
+    }
+
+    &-option {
+        width: 340px;
+        height: 70px;
+        border-radius: 10px;
+        background-color: $white-color;
+        box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.05);
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-monthly {
+        @include custom-button;
+        background-color: $white-color;
+        color: $dark-color;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        margin: 20px 38px;
+        width: 97px;
+    }
+
+    &-yearly {
+        @include custom-button;
+        padding: 13px 40px;
+        color: $white-color;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        width: 160px;
+        border-radius: 10px;
+        margin-right: 7px;
+    }
+
+    &-list {
+        display: flex;
+        margin-top: 89px;
+        justify-content: space-between;
+        gap: 29px;
+    }
+
+    &-item {
+        width: 374px;
+        height: 644px;
+        border-radius: 20px;
+        box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.05);
+        background-color: $white-color;
+        padding: 40px 20px 25px 20px;
+    }
+
+    &-card-pro {
+        width: 374;
+        height: 684px;
+        background-image: url(../../assets/images/background-pro.svg);
+        margin-top: -22px;
+
+        h4,
+        p {
+            color: $white-color;
+        }
+    }
+
+    &-feature {
+        color: $dark-color;
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    &-content {
+        color: $gray-color;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        margin: 0 auto;
+    }
+
+    &-free {
+        width: 210px;
+    }
+
+    &-pro {
+        width: 210px;
+    }
+
+    &-bussiness {
+        width: 251px;
+    }
+
+    &-price-container {
+        margin: 13px auto 0px;
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+        height: 56px;
+    }
+
+    &-container-free {
+        width: 50px;
+    }
+
+    &-container-pro {
+        width: 49px;
+        margin-bottom: 16px;
+
+        sup,
+        span {
+            color: $white-color;
+        }
+    }
+
+    &-container-bussiness {
+        width: 73px;
+    }
+
+    &-currency {
+        position: absolute;
+        color: $gray-color;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        width: 12px;
+        height: 30px;
+        top: 0;
+    }
+
+    &-price {
+        position: absolute;
+        color: $dark-color;
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 30px;
+        right: 0;
+        width: 34px;
+        height: 30px;
+    }
+
+    &-free-price {
+        width: 34px;
+        height: 30px;
+    }
+
+    &-pro-price {
+        width: 33px;
+        height: 30px;
+    }
+
+    &-bussiness-price {
+        width: 57px;
+        height: 30px;
+    }
+
+    &-save-money {
+        width: 130px;
+        height: 40px;
+        margin: 0 auto;
+        border-radius: 10px;
+        background-color: $light-green;
+        border-radius: 10px;
+    }
+
+    &-save-money-info {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 30px;
+        padding: 5px 10px;
+    }
+
+    &-card {
+        border-radius: 10px;
+        width: 334px;
+        height: 380px;
+        background-color: $gray-light1;
+        margin-top: 15px;
+        padding: 26px 0px 25px 37px;
+        position: relative;
+    }
+
+    &-card-item {
+        display: flex;
+        margin-bottom: 22px;
+        align-items: center;
+    }
+
+    &-tick-icon {
+        width: 26px;
+        height: 26px;
+        margin-right: 10px;
+    }
+
+    &-title {
+        text-align: left;
+        color: $dark-color;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    &-btn-subscribe {
+        color: $primary-color;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 30px;
+        border-radius: 20px;
+        box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.05);
+        background-color: $white-color;
+        width: 260px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 25px;
+    }
+
+    &-subcribe-free {
+        padding: 17px 65px;
+    }
+
+    &-subcribe-pro {
+        padding: 17px 89px;
+        color: $white-color;
+        background-color: $primary-color;
+    }
+
+    &-subcribe-bussiness {
+        padding: 17px 67px;
+    }
+}

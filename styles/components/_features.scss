@@ -1,0 +1,62 @@
+.features {
+    margin-top: 130px;
+    height: 766px;
+
+    &-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 122px;
+        margin-bottom: 74px;
+        gap: 113px;
+    }
+
+    &-heading {
+        font-size: 50px;
+        font-weight: 600;
+        color: $dark-color;
+        width: 331px;
+    }
+
+    &-desc {
+        width: 461px;
+        color: $gray-color;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    &-btn-started {
+        @include custom-button;
+        padding: 18px 31px;
+        border-radius: 70px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    &-group {
+        display: flex;
+        justify-content: space-between;
+        gap: 44px;
+    }
+
+    &-item {
+        width: 364px;
+    }
+
+    &-title {
+        color: $dark-color;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 30px;
+        margin: 26px 0 20px 0;
+    }
+
+    &-content {
+        color: $gray-color;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+}

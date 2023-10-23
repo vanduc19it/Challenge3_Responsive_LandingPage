@@ -1,0 +1,158 @@
+.benefit {
+    height: 543px;
+    margin-top: 130px;    
+
+    &-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 135px;
+    }
+
+    &-left {
+        width: 471px;
+        height: 452px;
+    }
+
+    &-heading {
+        color: $dark-color;
+        font-size: 50px;
+        font-weight: 700;
+        width: 429px;
+        margin-bottom: 50px;
+    }
+
+    &-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    &-tick-icon {
+        margin-right: 20px;
+    }
+
+    &-feature {
+        color: $dark-color;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        height: 30px;
+    }
+
+    &-right {
+        position: relative;
+    }
+
+    &-expert-card {
+        position: absolute;
+        top: 36px;
+        left: -124px;
+        width: 304px;
+        height: 82px;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        background-color: $white-color;
+        box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.05);
+    }
+
+    &-expert-avatar {
+        width: 58px;
+        height: 58px;
+        margin-left: 20px;
+    }
+
+    &-expert-info {
+        margin: 0 28px 0 16px;
+    }
+
+    &-expert-name {
+        color: $dark-color;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 12px;
+    }
+
+    &-expert-title {
+        color: $gray-color;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    &-chat-icon {
+        width: 40px;
+        height: 40px;
+        right: 20px;
+    }
+
+    &-alert-card {
+        position: absolute;
+        width: 302px;
+        height: 68px;
+        border-radius: 10px;
+        background-color: $white-color;
+        box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.05);
+        display: flex;
+        align-items: center;
+        top: 475px;
+        left: -106px;
+    }
+
+    &-tick-outline {
+        width: 24px;
+        height: 24px;
+        margin: 0 15px 0 25px;
+    }
+
+    &-alert-info {
+        color: $dark-color;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: -0.54px;
+        width: 213px;
+    }
+
+    &-income-card {
+        width: 138px;
+        height: 70px;
+        position: absolute;
+        border-radius: 10px;
+        background-color: $white-color;
+        box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.05);
+        top: 121px;
+        right: -69px;
+        display: flex;
+    }
+
+    &-income-title {
+        color: $gray-light2;
+        font-size: 12px;
+        font-weight: 400;
+        margin: 13px 0 9px 12px;
+    }
+
+    &-income-subtitle {
+        color: $dark-color;
+        font-size: 16px;
+        font-weight: 500;
+        margin-left: 13px;
+    }
+
+    &-chart-icon {
+        width: 20px;
+        height: 20px;
+        margin: 36px 12px 14px 21px;
+    }
+
+    &-picture-icon {
+        position: absolute;
+        top: 275px;
+        left: -69px;
+    }
+
+    &-image-user {
+        position: absolute;
+        top: 36px;
+        left: -69px;
+    }
+}

@@ -1,0 +1,112 @@
+.banner {
+    margin-top: 130px;
+
+    &-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 35px;
+    }
+
+    &-heading {
+        width: 555px;
+        color: $dark-color;
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 90px;
+    }
+
+    &-vector {
+        width: 479px;
+        margin-top: 30px;
+        stroke-width: 8px;
+        stroke: #54BD95;
+    }
+
+    &-desc {
+        width: 461px;
+        color: $black-color;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        margin-top: 46px;
+    }
+
+    &-btn-container {
+        display: flex;
+        align-items: center;
+        height: 62px;
+        margin-top: 50px;
+    }
+
+    &-btn-free-trial {
+        @include custom-button;
+        padding: 20px 30px;
+        border-radius: 40px;
+        color: $white-color;
+        font-size: 18px;
+        font-weight: 500;
+        margin-right: 40px;
+    }
+
+    &-btn-view-demo {
+        width: 152px;
+        height: 40px;
+        border: none;
+        color: $dark-color;
+        font-size: 18px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+    }
+
+    &-view-icon {
+        margin-right: 14px;
+    }
+
+    &-right {
+        position: relative;
+    }
+}
+
+.collabs {
+    height: 146px;
+    margin-top: 130px;
+
+    &-caption {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        color: $dark-color;
+        width: 720px;
+        height: 48px;
+        margin: 0 230px;
+    }
+
+    &-tool {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 60px;
+        width: 1076px;
+        height: 38px;
+        gap: 50px;
+    }
+
+    &-tool-item {
+        display: flex;
+        height: 38px;
+        align-items: center;
+    }
+
+    &-tool-icon {
+        margin-right: 10px;
+        height: 30px;
+    }
+
+    &-tool-name {
+        font-size: 30px;
+        font-weight: 600;
+        color: $gray-color;
+    }
+}

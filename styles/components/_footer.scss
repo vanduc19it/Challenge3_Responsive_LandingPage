@@ -1,0 +1,277 @@
+.footer {
+    background-color: $gray-dark1;
+    height: 1217px;
+    padding-top: 130px;
+    
+
+    &-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-title {
+        width: 444px;
+        color: $white-color;
+        font-size: 50px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    &-content {
+        width: 461px;
+        color: $gray-color;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        margin-bottom: 42px;
+    }
+
+    &-quotes-icon {
+        width: 45px;
+        height: 38px;
+        margin-bottom: 36px;
+    }
+
+    &-review {
+        width: 461px;
+        height: 90px;
+        color: $gray-color;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        margin-bottom: 40px;
+    }
+
+    &-reviewer {
+        width: 128px;
+        color: $gray-color;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        margin-bottom: 40px;
+    }
+
+    &-user {
+        display: flex;
+        margin-bottom: 170px;
+    }
+
+    &-user-image {
+        width: 66px;
+        height: 66px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    &-logo {
+        color: $primary-color;
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-bottom: 30px;
+        width: 160px;
+    }
+
+    &-text {
+        color: $gray-color;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        margin-bottom: 30px;
+        width: 286px;
+    }
+
+    &-input-container {
+        position: relative;
+        margin-bottom: 79px;
+        width: 410px;
+        height: 60px;
+        border: 2px solid $gray-color;
+        border-radius: 70px;
+        padding: 13px 0 13px 18px;
+    }
+
+    &-input-field {
+        border: none;
+        width: 333px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        background-color: $gray-dark1;
+    }
+
+    &-input-field::placeholder {
+        color: $gray-color;
+    }
+
+    &-input-field:focus {
+        color: $gray-color;
+        outline: none;
+    }
+
+    &-input-icon {
+        position: absolute;
+        top: 50%;
+        right: 5px;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+    &-copyright {
+        width: 425px;
+        color: $white-color;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    &-request-form {
+        display: inline-flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 612px;
+        height: 588px;
+        padding: 40px 86px 66px 86px;
+        border-radius: 20px;
+        background-color: $gray-dark2;
+    }
+
+    &-form-icon {
+        width: 72.059px;
+        height: 86px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    &-form-heading {
+        width: 168px;
+        color: $white-color;
+        font-size: 30px;
+        font-weight: 500;
+        margin: 0 auto;
+    }
+
+    &-form-title {
+        color: $white-color;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    &-input-email {
+        border-radius: 10px;
+        background-color: $white-color;
+        border: none;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 17px 0 17px 20px;
+        margin-bottom: 10px;
+        line-height: 16px;
+        color: $gray-color;
+    }
+
+    &-input-email::placeholder,
+    &-input-message::placeholder {
+        color: $gray-color;
+    }
+
+    &-input-email:focus,
+    &-input-message:focus {
+        color: $gray-color;
+        outline: none;
+    }
+
+    &-input-message {
+        border-radius: 10px;
+        background-color: $white-color;
+        height: 80px;
+        border: none;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        color: $gray-color;
+        padding: 20px 0 43px 20px;
+    }
+
+    &-btn-request {
+        @include custom-button;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        color: $white-color;
+        line-height: 20px;
+        padding: 20px 160px;
+    }
+
+    &-free-trial-text {
+        font-size: 14px;
+        font-weight: 500;
+        text-align: right;
+
+        .or-text {
+            color: $gray-color;
+        }
+
+        .free-trial {
+            color: $white-color;
+            cursor: pointer;
+        }
+    }
+
+    &-info {
+        display: flex;
+        justify-content: space-between;
+        gap: 64px;
+        margin-top: 170px;
+        height: 200px;
+        width: 587px;
+    }
+
+    &-info-heading {
+        color: $white-color;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+
+    &-link {
+        display: inline-block;
+        color: $gray-color;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+
+    &-link-item {
+        list-style: none;
+    }
+
+    &-link-item:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    &-links-section {
+        margin-top: 59px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 10px;
+    }
+
+    &-terms,
+    &-dot,
+    &-policy {
+        color: $white-color;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    &-terms {
+        width: 185px;
+    }
+
+    &-policy {
+        width: 122px;
+    }
+}

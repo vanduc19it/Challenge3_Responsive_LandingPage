@@ -1,0 +1,63 @@
+.header {
+    height: 40px;
+    margin-top: 40px;
+    position: relative;
+
+    &-container {
+        display: flex;
+        align-items: center;
+    }
+
+    &-logo {
+        display: block;
+        margin-right: 339px;
+        color: $primary-color;
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 30px;
+        width: 160px;
+        height: 40px;
+    }
+
+    &-menu {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 40px;
+        padding: auto;
+    }
+
+    &-menu-item {
+        a.header-active {
+            color: $black-color;
+            font-size: 18px;
+        }
+    }
+
+    &-menu-link {
+        color: $gray-color;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    &-auth {
+        margin-left: auto;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    &-login {
+        color: $gray-color;
+        margin-right: 16px;
+        width: 43px;
+    }
+
+    &-signup {
+        @include custom-button;
+        border-radius: 10px;
+        color: $text-white;
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+

@@ -1,0 +1,802 @@
+/*Small PC */
+@media screen and (max-width: 1367px) {
+    .container {
+        max-width: 1366px;
+        padding: 0 70px;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+
+    .container {
+        max-width: 768px;
+        padding: 0 20px;
+    }
+
+    .header {
+        &-menu {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        &-logo {
+            width: 120px;
+            height: 35px;
+            margin-right: 90px;
+        }
+
+        &-menu-item {
+            gap: 20px;
+        }
+
+        &-auth {
+            height: 40px;
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .banner {
+
+        &-container {
+            display: flex;
+        }
+
+        &-left {
+            text-align: center;
+            width: 360px;
+        }
+
+        &-right {
+            width: 300px;
+        }
+
+        &-heading {
+            width: 360px;
+            font-size: 30px;
+            line-height: 44px;
+        }
+
+        &-desc {
+            width: 360px;
+            font-size: 18px;
+            text-align: justify;
+        }
+
+        &-image {
+            width: 300px;
+        }
+
+        &-vector {
+            width: 300px;
+        }
+
+        &-credit-card {
+            z-index: 1;
+            display: none;
+        }
+
+    }
+
+    .collabs {
+
+        &-tool {
+            width: 500px;
+            gap: 20px;
+            align-items: center;
+        }
+
+        &-caption {
+            width: 100%;
+            text-align: center;
+            margin: 0;
+            font-size: 40px;
+        }
+
+        &-tool-name {
+            font-size: 20px;
+        }
+
+        &-tool-icon {
+            width: 30px;
+        }
+    }
+
+    .benefit {
+
+        &-container {
+            display: flex;
+            align-items: center;
+            justify-content: initial;
+            gap: 0px;
+        }
+
+        &-left {
+            width: 300px;
+        }
+
+        &-right {
+            width: 300px;
+            position: relative;
+        }
+
+        &-feature {
+            font-size: 14px;
+        }
+
+        &-tick-icon {
+            width: 24px;
+        }
+
+        &-heading {
+            font-size: 28px;
+        }
+
+        &-image {
+            transform: scale(0.4);
+            z-index: 1;
+        }
+
+        &-income-card {
+            transform: translate(10px, 70px) scale(0.6);
+        }
+
+        &-alert-card {
+            transform: translate(100px, -150px) scale(0.6);
+        }
+
+        &-expert-card {
+            transform: translate(120px, 120px) scale(0.6);
+        }
+
+        &-picture-icon {
+            transform: translate(160px, -20px) scale(0.6);
+        }
+
+    }
+
+    .partner {
+
+        height: 1000px;
+
+        &-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &-left {
+            width: 100%;
+        }
+
+        &-right {
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        &-heading {
+            width: 100%;
+            text-align: center;
+        }
+
+        &-desc {
+            width: 100%;
+            text-align: center;
+        }
+
+        &-rating {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 130px;
+        }
+
+        &-rating-item:last-child {
+            margin-right: 0;
+        }
+
+        &-rating-item {
+            text-align: center;
+        }
+
+        &-info-desc {
+            width: 560px;
+        }
+    }
+
+    .features {
+
+        &-image {
+            width: 200px;
+        }
+
+        &-info {
+            gap: 40px;
+        }
+
+        &-heading {
+            font-size: 30px;
+        }
+
+        &-desc {
+            font-size: 16px;
+            text-align: justify;
+            line-height: 22px;
+        }
+
+        &-btn-started {
+            width: 200px;
+            padding: 20px 20px;
+            font-size: 14px;
+            line-height: 14px;
+        }
+
+        &-group {
+            width: 100%;
+            justify-content: space-between;
+        }
+
+        &-item {
+            width: 200px;
+        }
+
+        &-title {
+            font-size: 20px;
+        }
+
+        &-content {
+            font-size: 16px;
+        }
+    }
+
+    .plan {
+
+        &-item {
+            width: 220px;
+            height: 620px;
+        }
+
+        &-list {
+            gap: 15px;
+        }
+
+        &-content {
+            font-size: 16px;
+        }
+
+        &-card {
+            width: 100%;
+            height: 320px;
+            padding: 26px 0px 25px 16px;
+        }
+
+        &-card-item {
+            margin-bottom: 16px;
+        }
+
+        &-title {
+            font-size: 12px;
+            line-height: 12px;
+        }
+
+        &-content {
+            width: 200px;
+        }
+
+        &-btn-subscribe {
+            padding: 10px 16px;
+            width: 170px;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+    }
+
+    .footer {
+        height: 1250px;
+
+        &-container {
+            display: flex;
+            gap: 20px;
+        }
+
+        &-left {
+            width: 350px;
+        }
+
+        &-right {
+            width: 350px;
+        }
+
+        &-title {
+            font-size: 30px;
+            width: 300px;
+        }
+
+        &-content {
+            font-size: 18px;
+            width: 300px;
+        }
+
+        &-request-form {
+            width: 350px;
+            padding: 0;
+            padding: 40px 20px;
+        }
+
+        &-info {
+            width: 80px;
+            gap: 20px
+        }
+
+        &-info-heading {
+            font-size: 12px;
+            width: 110px;
+        }
+
+        &-btn-request {
+            padding: 20px 40px;
+        }
+
+        &-input-container {
+            width: 300px;
+        }
+
+        &-input-field {
+            width: 200px;
+        }
+
+        &-copyright,
+        &-review,
+        &-user {
+            width: 300px;
+        }
+
+        &-reviewer {
+            height: 20px;
+            padding-top: 40px;
+        }
+
+        &-user-image {
+            width: 40px;
+        }
+
+        &-links-section {
+            width: 300px;
+            font-size: 12px;
+            margin-left: auto;
+        }
+
+        &-link {
+            font-size: 12px;
+        }
+
+        &-link-item {
+            width: 100px;
+        }
+
+        &-copyright {
+            font-size: 12px;
+            padding-top: 10px;
+            ;
+        }
+
+        &-terms {
+            width: unset;
+        }
+
+        &-terms,
+        &-policy {
+            font-size: 12px;
+        }
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 739px) {
+
+    .container {
+        padding: 0;
+    }
+
+    .wrapper {
+        width: 100vw;
+    }
+
+    .banner {
+
+        &-container {
+            display: block;
+        }
+
+        &-left {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &-vector {
+            width: 100%;
+            padding: 0 20px;
+        }
+
+        &-heading {
+            width: 100%;
+            font-size: 50px;
+            line-height: 50px;
+            text-align: center;
+        }
+
+        &-desc {
+            width: 100%;
+            padding: 0 20px;
+            text-align: justify;
+            margin-top: 50px;
+        }
+
+        &-btn-container {
+            width: 100%;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 50px 0;
+        }
+
+        &-btn-free-trial {
+            margin: 0;
+        }
+
+        &-image {
+            width: 100%;
+            transform: translateX(0px);
+            margin-bottom: 130px;
+        }
+    }
+
+    .collabs {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: block;
+        height: 600px;
+
+        &-container {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            display: block;
+        }
+
+        &-tool {
+            display: block;
+            width: 100%;
+        }
+
+        &-caption {
+            width: 100%;
+            margin: 0 auto 10px;
+            height: 96px;
+        }
+
+        &-tool-item {
+            justify-content: center;
+            width: 100%;
+            padding: 0;
+            margin: 50px auto;
+        }
+    }
+
+    .partner {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: 1250px;
+
+        &-container {
+            display: block;
+            padding: 0;
+            margin: 0;
+        }
+
+        &-left {
+            width: 100%;
+            padding: 0;
+            height: 500px;
+        }
+
+        &-heading {
+            text-align: center;
+            width: 100%;
+            margin-top: 80px;
+            padding: 0 20px;
+        }
+
+        &-desc {
+            width: 100%;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        &-rating {
+            display: block;
+        }
+
+        &-rating-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 0 auto;
+        }
+
+        &-right {
+            width: 100%;
+            margin-top: 260px;
+            height: 500px;
+        }
+
+        &-info-item {
+            width: 100%;
+            display: flex;
+            padding: 0 20px;
+        }
+
+        &-box-image {
+            width: 30px;
+            height: 30px;
+            margin-top: 8px;
+        }
+
+        &-info-heading {
+            width: 100%;
+        }
+
+        &-info-desc {
+            width: 100%;
+        }
+
+    }
+
+    .features {
+        padding: 0 20px;
+        height: 2220px;
+
+        &-container {
+            display: block;
+        }
+
+        &-info {
+            display: block;
+            width: 100%;
+            text-align: center;
+            height: 440px;
+            margin: 0;
+        }
+
+        &-heading {
+            width: 100%;
+            text-align: center;
+        }
+
+        &-desc {
+            width: 100%;
+            margin-top: 40px;
+        }
+
+        &-btn-started {
+            width: 100%;
+            margin-top: 40px;
+        }
+
+        &-group {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &-title,
+        &-content {
+            text-align: center;
+        }
+    }
+
+    .benefit {
+
+        height: 880px;
+
+        &-container {
+            display: block;
+            gap: 20px;
+        }
+
+        &-left {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        &-heading {
+            width: 100%;
+            text-align: center;
+        }
+
+        &-item {
+            padding: 10px 20px;
+        }
+
+        &-image {
+            width: 70%;
+            padding: 0 auto;
+            margin-left: 15%;
+            margin-top: 150px;
+        }
+
+        &-income-card {
+            right: 0;
+            transform: scale(0.5) translate(20px, 150px);
+        }
+
+        &-expert-card {
+            transform: scale(0.5) translate(120px, 220px);
+        }
+
+        &-alert-card {
+            transform: scale(0.5) translate(100px, -100px);
+        }
+
+        &-picture-icon {
+            transform: scale(0.5) translate(170px, 50px);
+        }
+    }
+
+    .plan {
+        padding: 0 20px;
+        margin-bottom: 1000px;
+        height: 1600px;
+
+        &-list {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &-heading {
+            width: 100%;
+        }
+
+        &-desc {
+            margin: 20px 0;
+        }
+
+    }
+
+    .footer {
+
+        height: 3200px;
+        display: block;
+
+        &-container {
+            flex-direction: column;
+        }
+
+        &-left {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        &-title {
+            width: 100%;
+            text-align: center;
+        }
+
+        &-request-form {
+            width: 100%;
+            margin: 0;
+        }
+
+        &-content {
+            width: 100%;
+            text-align: center;
+        }
+
+        &-quotes-icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &-left {
+            width: 100%;
+        }
+
+        &-review {
+            width: 100%;
+        }
+
+        &-reviewer {
+            margin-top: 40px;
+        }
+
+        &-user {
+            width: 100%;
+            justify-content: center;
+        }
+
+        &-user-image {
+            width: 40px;
+        }
+
+        &-user-image:last-child {
+            margin-right: 0px;
+        }
+
+        &-input-container {
+            width: 100%;
+            padding: 13px 0 13px 13px;
+        }
+
+        &-input-field {
+            width: 80%;
+        }
+
+        &-btn-request {
+            width: 100%;
+            padding: 0;
+        }
+
+        &-copyright {
+            width: 100%;
+        }
+
+        &-right {
+            padding: 0 20px;
+        }
+
+        &-request-form {
+            width: 100%;
+            margin-top: 130px;
+            padding: 40px 20px;
+        }
+
+        &-btn-request {
+            padding: 20px 0;
+        }
+
+        &-info {
+            flex-direction: column;
+            width: 100%;
+        }
+
+        &-column,
+        &-info-heading,
+        &-link {
+            width: 100%;
+            text-align: center;
+        }
+
+        &-links-section {
+            margin-top: 600px;
+        }
+    }
+
+    .header {
+        display: flex;
+        width: 100%;
+
+        &-container {
+            width: 300px;
+        }
+
+        &-menu {
+            display: none;
+        }
+
+        &-auth {
+            display: none;
+        }
+    }
+}
