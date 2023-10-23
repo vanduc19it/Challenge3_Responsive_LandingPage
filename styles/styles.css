@@ -633,7 +633,7 @@ a {
 .plan-card-pro {
   width: 374px;
   height: 684px;
-  background: url(../../assets/images/background-pro.svg);
+  background-image: url(../../assets/images/background-image.svg);
   margin-top: -22px;
 }
 
