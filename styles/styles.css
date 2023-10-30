@@ -907,10 +907,11 @@ a {
 
 .footer-input-field {
   border: none;
-  width: 333px;
+  width: 185px;
   font-size: 18px;
   font-weight: 500;
   line-height: 30px;
+  font-family: "Inter";
   background-color: #161C28;
 }
 
@@ -927,12 +928,22 @@ a {
   outline: none;
 }
 
-.footer-input-icon {
+.footer-arrow {
+  width: 46px;
+  height: 46px;
+  background-color: #54BD95;
   position: absolute;
   top: 50%;
   right: 5px;
   transform: translateY(-50%);
   cursor: pointer;
+  border-radius: 100%;
+  padding: 11px;
+}
+
+.footer-input-icon {
+  width: 24px;
+  height: 24px;
 }
 
 .footer-copyright {
