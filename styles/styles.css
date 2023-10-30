@@ -186,6 +186,7 @@ a {
 }
 
 .collabs-tool {
+  padding-left: 2px;
   display: flex;
   justify-content: space-between;
   align-items: center;
