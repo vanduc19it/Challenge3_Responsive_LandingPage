@@ -24,7 +24,8 @@
         align-items: center;
         list-style: none;
         gap: 40px;
-        padding: auto;
+        width: 408px;
+        padding: auto;      
     }
 
     &-menu-item {
@@ -32,31 +33,49 @@
             color: $black-color;
             font-size: 18px;
         }
+
+        a.header-product {
+            display: block;
+            width: 61px;
+        }
+
+        a.header-about {
+            display: block;
+            width: 72px;
+        }
     }
 
     &-menu-link {
         color: $gray-color;
         font-size: 16px;
         font-weight: 500;
+        
+      
     }
 
     &-auth {
         margin-left: auto;
         font-size: 16px;
         font-weight: 500;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        width: 143px;
     }
 
     &-login {
         color: $gray-color;
-        margin-right: 16px;
         width: 43px;
     }
 
     &-signup {
         @include custom-button;
         border-radius: 10px;
+        height: 40px;
         color: $text-white;
         padding: 10px 10px 10px 10px;
+        display: block;
+        
     }
 }
 
