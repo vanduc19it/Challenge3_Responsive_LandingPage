@@ -548,9 +548,13 @@ a {
 }
 
 .benefit-picture-icon {
+  display: block;
   position: absolute;
-  top: 275px;
-  left: -69px;
+  top: 279px;
+  left: -64px;
+  transform: rotate(-15deg);
+  width: 40px;
+  height: 40px;
 }
 
 .benefit-image-user {
